@@ -10,7 +10,6 @@ public:
 	bool TankColision(const nStruct::sCoord& coord);
 	bool BulletColision(const nStruct::sCoord& coord);
 	bool isGoldDestroyed();
-	//bool isWallDestroyed();
 	void render() const;
 private:
 	CFieldBuilder mBuilder;
